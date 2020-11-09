@@ -1,0 +1,73 @@
+h1{
+  text-align: center;
+  margin-top:20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+main{
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+section{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button{
+  background-color: transparent;
+  border: 1px solid #000000;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 10%;
+  padding: 10px 0;
+  appearance: none; 
+  font-size: 20px;
+}
+
+.divMargin{
+  margin: 10px 0;
+}
+
+.hintSentenceGuessBox{
+  display: flex;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+
+}
+
+
+.pcss {
+  font-weight: bold;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.correct{
+  font-weight: bold;
+  font-size: 30px;
+  color: green;
+}
+
+.false{
+  font-weight: bold;
+  font-size: 30px;
+  color: rebeccapurple;
+}
+
+.zannen{
+  display: none;
+  font-size: 20px;
+  color: #57817a;
+  font-weight: bold;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>数当てゲーム</title>
+<!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0"> -->
+<meta name="keywords" content="数あて, ゲーム">
+<meta name="description" content="1~50までの数字当てゲームができるサイトです。">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>数あてゲーム（１〜５０の中に正解があるよ。）</h1>
+    <hr>
+  </header>
+  <main>
+    <section id="ruleBox">
+      <h3>ルール</h3>
+      <ul>
+        <li>下の１〜５０までの数に正解が１つあります。</li>
+        <li>正解はランダムに選ばれます。</li>
+        <li>チャンスは５回です。</li>
+        <li>ヒントをよく見てください。</li>
+      </ul>
+    </section>
+    <section id="hintBox">
+      <h3>ヒント</h3>
+      <div class="hintSentenceBox divMargin">
+      </div>
+      <div class="hintSentenceGuessBox divMargin"></div>
+      <div class="hintSentenceCheckBox divMargin">
+        </div>
+    </section>
+
+    <section id="result">
+      <p class="zannen">残念。次を選んでね。</p>
+    </section>
+
+    <section id="kaisuuBox">
+    </section>
+  </main>
+
+  <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
